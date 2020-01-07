@@ -1,7 +1,7 @@
 SimHP: A patients phenotype simulation tool
 
 I. Introduction
-    SimHP is a tool to generate patient cases with their phenotypes mapping to Human Phenotype Ontology(HPO). Users can set parameters by their own. The generated data can applicate on disease-assisted diagnosis algorithm. The latest version of SimHP (2018July) can be downloaded here. Please download the file "SimHP.tar.gz".
+    SimHP is a tool to generate patient cases with their phenotypes mapping to Human Phenotype Ontology(HPO). Users can set parameters by their own. The generated data can applicate on disease-assisted diagnosis algorithm. The latest version of SimHP can be downloaded here. Please download the file "SimHP.tar.gz".
 
 II. System requirements
     Python 2.7 or 3.6
@@ -40,6 +40,7 @@ V. Run patient simulation
 		Default: 0.15
 	-a	Annotations of HP in output file. Set this parameter if you want to annotate.
 	-f	Using frequency information. Set this parameter if you want to use frequency.
+	-v  cuf-off frequency value to filter HP term and you need to set -f before use it.
 	-h	Help.
 
     1. Generate a simulated dataset on random disease
@@ -66,5 +67,5 @@ V. Run patient simulation
 
 VI. Contact:
     If you have any questions, please contact:
-    peixuanwang@sjtu.edu.cn
+    peixuanwang@alumni.sjtu.edu.cn
 
